@@ -1,0 +1,134 @@
+.container{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 600px;
+    width: 550px;
+    align-items: center;
+    padding: 25px;
+}
+body{
+    background-color: rgb(131, 99, 174);
+}
+
+.subtitle{
+    color: rgb(124, 128, 131);
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.score-section{
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    
+}
+.score-box{
+    color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 250px;
+    margin: 20px;
+    height: 100px;
+    background-color: rgb(103, 94, 188);
+    
+}
+
+.button-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.click-btn{
+    font-size: 1em;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    height: 38px;
+    width: 280px;
+}
+.click-btn:disabled{
+    background-color: grey;
+    cursor: not-allowed;}
+
+.start-btn{
+    font-size: .7em;
+    padding: auto;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0095ff;
+    color: white;
+    cursor: pointer;
+    height: 24px;
+    width: 280px;
+     
+}
+
+
+.reset-btn{
+    font-size: .7em;
+    padding: auto;    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+     height: 37px;
+    width: 280px;
+}
+
+.status-message{
+    font-size: .7em;
+    margin-top: 10px;
+    height: 20px;
+}
+.timer-section{
+    color: #0095ff;
+    background-color: aliceblue;
+    margin: auto;
+    height: 80px;
+    width: 500px;
+   border-radius: 25px;;
+}
+.resume-btn{
+    font-size: .7em;
+    padding: auto;    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+     height: 37px;
+    width: 280px;
+}
+.pause-btn{
+    font-size: .7em;
+    padding: auto;    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #05fff3;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+     height: 37px;
+    width: 280px;
+}
+
+video{
+    position: absolute;
+    display: none;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}

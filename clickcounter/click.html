@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Counter Game</title>
+    <link rel="stylesheet" href="click.css">
+</head>
+
+<body>
+    <div class="video">
+        <video class="video"
+            src="https://res.cloudinary.com/dsuhb6swy/video/upload/v1760338476/vp.1xy15q39zo_sfdt1s.mp4"></video>
+    </div>
+    <div class="container">
+
+
+
+
+
+
+
+
+        <h1>Click Counter Game</h1>
+        <p class="subtitle">Click as fast as you can!</p>
+
+        <!-- Score Display Section -->
+        <div class="score-section">
+            <div class="score-box">
+                <h2>Current Score</h2>
+                <div class="score" id="currentScore">0</div>
+            </div>
+            <div class="score-box">
+                <h2>High Score</h2>
+                <div id="highScore" class="score">0</div>
+            </div>
+        </div>
+        <!-- Timer Display -->
+        <div class="timer-section">
+            <h2>Time Remaining</h2>
+            <div id="timer" class="timer">10</div>
+
+        </div>
+        <!-- Game Button -->
+        <div class="button-section">
+            <div id="clickButton" class="click-btn">Click Me !</div>
+            <button id="startButton" class="start-btn">Start Game</button>
+            <button id="resetButton" class="reset-btn">Reset High Score</button>
+            <button id="pauseButton" class="pause-btn">Pause High Score</button>
+            <button id="resumeButton" class="resume-btn">Resume High Score</button>
+        </div>
+        <!-- Game Status Message -->
+        <div id="statusMessage" class="status-message">
+            Click "Start Game" to begin!
+        </div>
+    </div>
+
+    <div class="persec">
+        Clicks Per Second
+    </div>
+
+    <script src="click.js"></script>
+</body>
+
+</html>
